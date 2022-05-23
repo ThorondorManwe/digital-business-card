@@ -22,3 +22,8 @@ body {
 .green-text {
     color: #00dc9c;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
