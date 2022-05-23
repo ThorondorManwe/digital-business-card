@@ -1,5 +1,6 @@
 body {
     margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
@@ -7,17 +8,17 @@ body {
 }
 
 .card {
+    width: 400px;
+    margin: 0 auto;
     padding: 20px;
     display: flex;
-    /*
-    Challenge:
-    Add horizontal space around the flex children.
-    Hint: google "justify content"
-    */
     justify-content: space-around;
+    text-align: center;
+    color: white;
+    background-color: #192735;
+    border-bottom: 8px solid #15cfff;
 }
 
-.border-blue {
-    border: 1px dotted blue;
+.green-text {
+    color: #00dc9c;
 }
-
